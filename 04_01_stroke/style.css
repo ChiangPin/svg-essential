@@ -1,0 +1,27 @@
+.site {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.theimage {
+  width: 50%;
+  fill: none;
+}
+
+#custom-shape {
+  outline: 1px solid grey;
+}
+
+.stroke {
+  stroke: #000;
+  stroke-width: 30px;
+  stroke-linecap: round;
+  stroke-linejoin: bevel;
+  stroke-opacity: 0.8;
+}
+
+.fill {
+  fill: hsla(0, 0%, 50%, 0.5);
+}
